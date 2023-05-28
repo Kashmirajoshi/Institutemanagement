@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Itim&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container_head {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container img {
+  height: 100px;
+  width: 250px;
+}
+
+.container {
+  /* background-color: rgb(136, 175, 219); */
+  height: 100px;
+  display: flex;
+  width: 100%;
+}
+
+.header_title {
+  display: flex;
+  color: rgb(148, 4, 105);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 1000px;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+nav {
+  width: 100%;
+  margin-top: 10px;
+  margin-top: 30px;
+  background-color: rgb(201, 214, 230);
+}
+
+nav ul {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  color: rgb(17, 1, 1);
+  text-decoration: none;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 130%;
+}
+
+nav ul li a:hover {
+  color: red;
+  font-size: 150%;
+  border-bottom: 1px solid;
+}
+
+/* .sliderSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .slide {
+  height: 400px;
+  width: 90vw;
+  background-image: url("./IPimages/training_devlopment.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  animation: sliderImg 25s infinite;
+} */
+
+/* @keyframes sliderImg {
+  25% {
+    height: 400px;
+    width: 90vw;
+    background-image: url("./IPimages/full_stack_edit.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  50% {
+    height: 400px;
+    width: 90vw;
+    background-image: url("./IPimages/software_testing.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  75% {
+    height: 400px;
+    width: 90vw;
+    background-image: url("./IPimages/personal_growth.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  100% {
+    height: 400px;
+    width: 90vw;
+    background-image: url("./IPimages/intership.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+} */
+
+.Courses h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  font-style: italic;
+  margin-top: 40px;
+}
+
+.Courses h1:hover {
+  color: rgb(231, 11, 11);
+}
+
+.full_stack {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(175, 168, 214); */
+}
+.full_stack > img {
+  transition: transform 0.2s;
+}
+.full_stack > img:hover {
+  transform: scale(1.2);
+}
+
+.full_stack > div h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course h2 {
+  text-decoration: underline;
+}
+.software_testing > img {
+  transition: transform 0.2s;
+}
+.software_testing > img:hover {
+  transform: scale(1.2);
+}
+.software_testing {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgba(8, 243, 231, 0.568); */
+}
+.software_testing > div h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spoken_english > img {
+  transition: transform 0.2s;
+}
+.spoken_english > img:hover {
+  transform: scale(1.2);
+}
+.spoken_english {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(226, 233, 169); */
+}
+
+.spoken_english > div h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 30px 0;
+}
+
+.about_title:hover {
+  color: rgb(231, 11, 11);
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 320px;
+  margin: auto;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  width: 280px;
+  height: 80px;
+  padding: 10px;
+  background-color: #00376e;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 200px;
+  /* display: none; */
+  overflow: hidden;
+}
+.text h2 {
+  margin-top: 14px;
+}
+.text p {
+  /* display: none; */
+  visibility: hidden;
+}
+
+.images:hover .text {
+  height: 300px;
+  bottom: 40px;
+  transition: 1s;
+}
+.images:hover .text p {
+  /* display:block; */
+  visibility: visible;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.facilites {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 30px 0;
+}
+
+.facilites:hover {
+  color: rgb(231, 11, 11);
+}
+
+.paraline {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.admission {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ask {
+  color: rgb(7, 104, 168);
+  font-size: 30px;
+}
+
+.short_line {
+  font-size: 20px;
+  color: rgb(170, 16, 16);
+}
+.certificate {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #00376e;
+  color: white;
+  margin-top: 20px;
+}
+
+.advertise {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advertise > img {
+  transition: transform 0.2s;
+  left: 0;
+}
+.advertise > img:hover {
+  transform: scaleY(1.2);
+  left: 0;
+}
+
+.tag_line {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact_us {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #00376e;
+  color: white;
+  padding: 30px;
+}
+
+.contact_us button[type="submit"] {
+  padding: 5px;
+  width: 70px;
+}
+
+.contact_form :not(label) {
+  width: 300px;
+  text-align: center;
+}
+.contact_form input,
+textarea {
+  display: flex;
+  flex-direction: column;
+}
+.contact_form input {
+  padding: 3px;
+}
+.footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(26, 24, 24);
+  color: rgb(216, 209, 209);
+  padding: 20px;
+}
+.footer ul li a {
+  color: rgb(216, 209, 209);
+  text-decoration: none;
+}
+
+.footer ul li {
+  list-style: none;
+}
+.end {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* About_us page CSS */
+
+.about_image_div {
+  /* display: flex;
+  flex-direction: column; */
+  margin-top: 40px;
+}
+
+.about_img_title {
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+  margin-top: 40px;
+}
+
+/* .course_separate_tag {
+  display: flex;
+  text-align: center;
+} */
+
+/* .button_seperation {
+  display: flex;
+} */
+
+
